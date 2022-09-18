@@ -17,7 +17,7 @@
         o = a(9),
         c = (a(43), a(37)),
         y = a(0),
-        h = a(45)("$IP_ADRESS:PORT"),
+        h = a(45)("http://alexdutour.ddns.net:8000"),
         j = "O",
         d = { morpion: null, pos: null, lastSymbol: null },
         m = null,

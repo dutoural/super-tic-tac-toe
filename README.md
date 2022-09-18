@@ -30,9 +30,23 @@ You have multiple options to play the game
 2. You can play on 2 different screens by choosing the "2 players" option and then sharing the link with your friend
 
 > :warning:
-> If you leave the page, you won't be able to join back the game again while keeping the game progress. You will need to start a new game.
+> **If you leave the page, you won't be able to join back the game again while keeping the game progress. You will need to start a new game.**
 
 > :bulb:
 > You can start a new game at anytime by pressing the reset button
 ## IV- Rules
+1. Players play in turns
+2. For the first turn, the first player can place his symbol anywhere on the board
+3. For the next turns, the player can only place his symbol on the board corresponding to the square where his opponent placed his symbol on the previous turn. (*ie*: The previous player played on the bottom right square of the middle board so the next player have to play on bottom right board)
 
+
+<p style="text-align:center"><img type="content" width="50%" src="img/rule1.png" alt-text="Rule_img"> </img></p>
+
+4. If a player have to play on a board that is already won, he can play on any board
+5. When you align 3 symbols on a board, you win the board.
+   
+<p style="text-align:center"><img type="content" width="50%" src="img/rule2.png" alt-text="Rule_img"> </img></p>
+
+6. If you align 3 winning board, you win the game. 
+
+<p style="text-align:center"><img type="content" width="50%" src="img/rule3.png" alt-text="Rule_img"> </img></p>
