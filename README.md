@@ -19,7 +19,9 @@ You also need to serve the server.js file with node :
 node server.js
 ```
 
-The connection between players is made thanks to [socket.io](https://socket.io/docs/) running on port 8000. So you will need to open your firewall to redirect request from this port on your server.
+The connection between players is made thanks to [socket.io](https://socket.io/docs/) running on port `$PORT`. So you will need to open your firewall to redirect request from this port on your server.
+
+For now, you will need to hardcode the IP address of your server in the client.js file. You can do that by searching `$IP_ADRESS:PORT` in the `main.0561b073.chunk.js` and replacing it by your own 
 
 ## III- Options
 
@@ -27,9 +29,10 @@ You have multiple options to play the game
 1. You can play on a single screen with a friend choosing the "1 player" option
 2. You can play on 2 different screens by choosing the "2 players" option and then sharing the link with your friend
 
-> [!WARNING]
+> :warning:
 > If you leave the page, you won't be able to join back the game again while keeping the game progress. You will need to start a new game.
 
-> [!TIP]
+> :bulb:
 > You can start a new game at anytime by pressing the reset button
 ## IV- Rules
+
